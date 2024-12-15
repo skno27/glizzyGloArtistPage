@@ -1,0 +1,156 @@
+/* google: anonymous pro font styling */
+.anonymous-pro-regular {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.anonymous-pro-regular-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.anonymous-pro-bold-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* end google styling */
+
+body {
+  background-color: black;
+  font-family: Futura;
+}
+
+#top-section {
+  background-image: url("./assets/IMG_4450.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  /* color: white; */
+  padding: 0px 20px;
+  font-size: large;
+}
+
+.nav-chunk {
+  flex: 1;
+}
+
+#navbar-links {
+  display: flex;
+  flex-direction: start;
+  padding: 0;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+#navbar-links li:first-child {
+  margin-right: 10px;
+}
+
+.nav-btn {
+  background-color: none;
+}
+
+#logo {
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+  font-size: x-large;
+}
+
+.fa-bag-shopping {
+  color: red;
+  margin-left: 10px;
+}
+
+#cover-div {
+  font-family: "Anonymous Pro", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #ff4136;
+  margin-top: 120px;
+}
+
+.cover {
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  width: 25%;
+  height: auto;
+}
+
+.invite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invite h2 {
+  margin: 0;
+}
+
+.block-link {
+  display: block; /* make the link cover the full div area */
+  text-decoration: none; /* remove default underline */
+  color: inherit; /* inherit text color from parent, no "link" color */
+}
+
+.block-link:hover,
+.block-link:focus,
+.block-link:active {
+  text-decoration: none; /* ensure no decoration on hover/focus/active */
+  color: inherit; /* ensure text color doesn't change */
+}
+
+#merch-section {
+  background-color: white;
+  height: 600px;
+  padding-bottom: 100px;
+}
+
+#merch-div {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-div {
+  border: 1px solid gray;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "Futura";
+}
+
+#end-section {
+  padding-top: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
