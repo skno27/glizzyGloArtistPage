@@ -250,3 +250,19 @@ footer {
   padding: 50px 100px;
   font-size: small;
 }
+
+@media screen and (max-width: 768px) {
+  .invite h2 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .input {
+    padding: 10px;
+  }
+
+  .email-input {
+    width: 60%;
+  }
+}
